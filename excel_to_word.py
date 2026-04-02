@@ -58,7 +58,7 @@ def generate_report():
 
 # Set up the GUI
 root = tk.Tk()
-root.title("Missed Homework Report Generator")
+root.title("Missed Homework Report Generator v1")
 
 frame = ttk.Frame(root, padding="10")
 frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
