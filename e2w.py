@@ -110,8 +110,8 @@ def build_word_report_bytes(records: list[dict], title: str) -> bytes:
 
 
 def main():
-    st.set_page_config(page_title="Missed Homework Report Generator", layout="centered")
-    st.title("Missed Homework Report Generator")
+    st.set_page_config(page_title="Missed Homework Report Generator v1", layout="centered")
+    st.title("Missed Homework Report Generator v1")
     st.caption("Upload an Excel file and download a Word report listing only students with score = 0 on any assignment.")
 
     with st.sidebar:
